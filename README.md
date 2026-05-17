@@ -1,4 +1,5 @@
 📊 Monthly Budget File Automation (Google Apps Script)
+
 Overview
 
 This Google Apps Script automates the creation of a new monthly budget tracking file in Google Drive. It copies the previous month’s budget file, renames it for the current month, saves it in a specified folder, and sends an email notification once the new file is created.
@@ -6,6 +7,7 @@ This Google Apps Script automates the creation of a new monthly budget tracking 
 This helps ensure a consistent monthly budgeting workflow with minimal manual effort.
 
 🚀 Features
+
 Automatically finds the previous month’s budget file in a Google Drive folder
 Creates a copy of the previous month's file
 Renames the new file based on the current month
@@ -14,6 +16,7 @@ Sends an email notification after successful creation
 Logs key actions for debugging and tracking
 
 🧠 How It Works
+
 1. Date Calculation
 
 The script determines:
